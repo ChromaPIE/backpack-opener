@@ -1,0 +1,13 @@
+[{
+    "modid": "bpopener",
+    "name": "Backpack Opener",
+    "description": "Right-click backpack items in container GUIs to open them directly. Completely rewrote for Minecraft 1.7.10.",
+    "version": "${modVersion}",
+    "mcversion": "1.7.10",
+    "authorList": ["BlueBeaker, Claude Opus 4.5, ChromaPIE"],
+    "credits": "",
+    "logoFile": "",
+    "url": "",
+    "updateUrl": "",
+    "dependencies": []
+}]

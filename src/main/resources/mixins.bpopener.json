@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "cr.chromapie.bpopener.mixin",
+  "refmap": "mixins.bpopener.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "cr.chromapie.bpopener.mixin.MixinGuiContainer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

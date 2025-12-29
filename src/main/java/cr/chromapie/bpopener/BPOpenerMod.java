@@ -1,6 +1,5 @@
 package cr.chromapie.bpopener;
 
-import cr.chromapie.bpopener.command.BPOCommand;
 import net.minecraftforge.common.MinecraftForge;
 
 import org.apache.logging.log4j.LogManager;
@@ -13,6 +12,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.relauncher.Side;
+import cr.chromapie.bpopener.command.BPOCommand;
 import cr.chromapie.bpopener.config.BPOConfig;
 import cr.chromapie.bpopener.handler.BPOHandler;
 
@@ -49,8 +49,7 @@ public class BPOpenerMod {
      * 独立方法确保 ClientCommandHandler 类只在客户端侧被加载。
      */
     private void registerClientCommand() {
-        net.minecraftforge.client.ClientCommandHandler.instance
-            .registerCommand(new BPOCommand());
+        net.minecraftforge.client.ClientCommandHandler.instance.registerCommand(new BPOCommand());
     }
 
     @EventHandler
